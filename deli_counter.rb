@@ -17,7 +17,7 @@ end
 
 def now_serving(array)
 if array[0] == nil
- puts "The line is currently empty."
+ puts "There is nobody waiting to be served!"
 else
     puts "Currently serving #{array.first}."
     array.shift
